@@ -1,12 +1,12 @@
-
-.input-container{
-   display: flex;
-   flex-grow: 1;
-   margin-bottom: 10px;
+.chat-input{
+    font-size: 15px;
+    padding: 12px 15px;
+    border-width: 1px;
+    border-radius: 10px;
 }
 
 .send-btn{
-    background-color: rgb(25, 135, 84);
+    background-color: black;
     border: none;
     color: white;
     border-radius: 6px;
@@ -17,16 +17,3 @@
     margin-top: 10px;
     font-size: 15px;
 }
-
-.send-btn:hover{
-    background-color: rgb(25, 102, 84);
-}
-
-.chat-input{
-    font-size: 15px;
-    padding: 12px 15px;
-    border-width: 1px;
-    border-radius: 10px;
-   
-}
-   
