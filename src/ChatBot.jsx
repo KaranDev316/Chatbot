@@ -1,10 +1,12 @@
 
 import ChatMessage from "./ChatMessage";
+import './Chatbot.css'
+
 
 function Chatbot({ messages }){
    
    
-  return(<>
+  return(<div className="chat-messages-container">
    {
          (messages.map((chatMessage)=>{
           return(
@@ -19,7 +21,7 @@ function Chatbot({ messages }){
 
     }
     
-      </>      
+      </div>      
   );
 
 }

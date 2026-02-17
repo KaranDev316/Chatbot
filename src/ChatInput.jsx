@@ -35,11 +35,10 @@ function handleKeyDown(event){
 }
 
     return(
-        <div className='input-container'>
+        <div className='chat-input-container'>
             <input className='chat-input'
                 type="text" 
                 placeholder="Send a message to Chatbot" 
-                size="50"  
                 onChange={handleMessage} 
                 value={inputText}    
                 onKeyDown={handleKeyDown}  
