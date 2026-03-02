@@ -40,7 +40,6 @@ export async function getOpenAIResponse(userMessage, history = []) {
       body: JSON.stringify({
         model: MODEL,
         messages,
-        temperature: 0.7,
       }),
     });
 
