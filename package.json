@@ -5,12 +5,20 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "server": "node server/index.js",
+    "dev:all": "npm run server & npm run dev",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.4",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
