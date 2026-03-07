@@ -36,7 +36,7 @@ router.post("/", auth, async (req, res) => {
       body: JSON.stringify({
         model: process.env.OPENAI_MODEL || "gpt-3.5-turbo",
         messages,
-        temperature: 0.7,
+        
       }),
     });
 
